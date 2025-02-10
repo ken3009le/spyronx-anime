@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Random Anime</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .credit {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            font-size: 16px;
+            color: gray;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Get Random Anime</h1>
+    <img src="RAT.gif" id="smallGif" alt="GIF" />
+    
+    <!-- Dark mode toggle button -->
+    <span id="menuBtn" class="menu-btn">&#x2630;</span>
+
+    <button id="getMaidBtn" title="Get random maid anime images.">Maid</button>
+    <button id="getWaifuBtn" title="Get random waifu anime images.">Waifu</button>
+    <button id="getMarin-kitagawaBtn" title="Get random Marin Kitagawa anime images.">Marin Kitagawa</button>
+    <button id="getMori-calliopeBtn" title="Get random Mori Calliope anime images.">Mori Calliope</button>
+    <button id="getRaiden-shogunBtn" title="Get random Raiden Shogun anime images.">Raiden Shogun</button>
+    <button id="getOppaiBtn" title="Get random oppai anime images.">Oppai</button>
+    <button id="getSelfiesBtn" title="Get random selfies anime images.">Selfies</button>
+    <button id="getUniformBtn" title="Get random uniform anime images.">Uniform</button>
+    <button id="getKamisato-ayakaBtn" title="Get random Kamisato Ayaka anime images.">Kamisato Ayaka</button>
+    <button id="clearBtn" title="Clear all images">ClearAll</button>
+
+    <br><br>
+    <div id="animeContainer"></div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" id="closeBtn">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
+    <div class="credit">eww, Web của Kenzema</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
