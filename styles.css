@@ -22,15 +22,6 @@ h1 {
 body.dark-mode h1 {
     color: #F29F58;
 }
-/* Định vị GIF ở góc trên trái mà không ảnh hưởng đến các phần tử khác */
-#smallGif {
-    position: fixed;
-    top: 10px;     /* Khoảng cách từ trên xuống */
-    left: 10px;    /* Khoảng cách từ bên trái */
-    width: 50px;   /* Kích thước nhỏ của GIF */
-    height: auto;  /* Giữ tỉ lệ khung hình */
-    z-index: 999;  /* Đảm bảo GIF nằm trên các phần tử khác */
-}
 
 #animeContainer {
     display: flex;
@@ -156,4 +147,4 @@ button:active::after {
 
 body.dark-mode .menu-btn {
     color: #F29F58;
-}
+}                                       
